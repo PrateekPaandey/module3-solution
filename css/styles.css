@@ -1,0 +1,98 @@
+#heading {
+	text-align: center;
+	margin: 1.5%;
+
+}
+#navigation {
+	background-color: #a09c9c;
+	padding: 0px;
+
+}
+
+#navigation .navhover{
+	color: #000;
+	margin: 0px;
+	padding: 0px;
+}
+#navigation .navhover:hover {
+	color: #c0c0c0;
+}
+
+@media screen and (min-width: 768px) {
+ .link-list{
+	visibility: hidden;
+} 
+.icon-button{
+	visibility: hidden;
+}
+}
+.column{
+	text-align: center;
+	background-color: #a09c9c;
+	
+}
+.column p{
+	text-align: left;
+	font-size: 1.25em;
+	font-weight: 600;
+}
+
+#col1, #col2, #col3 {
+	width: 98%;
+	margin: 1%;
+	padding: 1%;
+
+}
+@media screen and (min-width: 768px){
+	#col1, #col2 {
+		width: 48%;
+
+	}
+}
+@media screen and (min-width: 993px){
+ #col1, #col2, #col3{
+ 	width: 31.33%;
+ }
+}
+
+
+.icon-button {
+	padding: 1% 2%;
+	background: transparent;
+	border: 2px solid #000;
+	margin: 2%;
+}
+.icon-button:hover{
+	color: #c0c0c0;
+}
+#company {
+	font-size: 2em;
+	font-weight: 600;
+	margin: 2%;
+	color: #000;
+}
+
+.link-list{
+	text-align: center;
+	font-size: 1.5em;
+	background-color: #fff;
+	border: 2px solid #000;
+	width: 100%;
+	padding: 15px 0px;
+	font-weight: 600;
+
+
+}
+hr {
+	background-color: #000;
+	height: 2px;
+	width: 95%;
+	color: #000;
+}
+
+#baricon{
+	color: #000000;
+}
+#barbutton{
+	border-color: #000000;
+}
